@@ -36,19 +36,19 @@ class BookInStock
   end
 end
 
-b1 = BookInStock.new("isbn1", 3)
-puts b1
-
-b2 = BookInStock.new("isbn2", 3.14)
-p b2
-
-b3 = BookInStock.new("isbn3", "5.67")
-p b3
-
-book = BookInStock.new("isbn1", 33.80)
-puts "ISBN  = #{book.isbn}"
-puts "Price = #{book.price}"
-puts "Price = #{book.price_in_cents}"
-book.price_in_cents = 1234
-puts "Price = #{book.price}"
-puts "Price in cents = #{book.price_in_cents}"
+# b1 = BookInStock.new("isbn1", 3)
+# puts b1
+#
+# b2 = BookInStock.new("isbn2", 3.14)
+# p b2
+#
+# b3 = BookInStock.new("isbn3", "5.67")
+# p b3
+#
+# book = BookInStock.new("isbn1", 33.80)
+# puts "ISBN  = #{book.isbn}"
+# puts "Price = #{book.price}"
+# puts "Price = #{book.price_in_cents}"
+# book.price_in_cents = 1234
+# puts "Price = #{book.price}"
+# puts "Price in cents = #{book.price_in_cents}"
